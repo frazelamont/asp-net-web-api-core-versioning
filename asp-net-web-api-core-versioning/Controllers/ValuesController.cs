@@ -8,6 +8,13 @@ namespace asp_net_web_api_core_versioning.Controllers
     public class ValuesController : Controller
     {
         // GET api/values
+
+        [HttpGet]
+        public virtual IEnumerable<string> Get()
+        {
+            return new string[] { "value1", "value2" };
+        }
+
         [HttpGet]
         [MapToApiVersion("1.0")]
         public IEnumerable<string> GetV0()
