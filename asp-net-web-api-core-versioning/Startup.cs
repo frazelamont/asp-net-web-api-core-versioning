@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using asp_net_web_api_core_versioning.Controllers;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
@@ -21,12 +22,14 @@ namespace asp_net_web_api_core_versioning
         {
             services.AddMvc();
 
-            services.AddApiVersioning(cfg =>
+            services.AddApiVersioning(v =>
             {
-                cfg.DefaultApiVersion = new ApiVersion(1, 1);
-                cfg.AssumeDefaultVersionWhenUnspecified = true;
-                cfg.ReportApiVersions = true;
-                cfg.ApiVersionReader = new HeaderApiVersionReader("version", "X-MySample-Version");
+                v.DefaultApiVersion = new ApiVersion(1, 1);
+                v.AssumeDefaultVersionWhenUnspecified = true;
+                v.ReportApiVersions = true;
+                v.ApiVersionReader = new HeaderApiVersionReader("version", "X-MySample-Version");
+                v.Conventions.Controller<ValuesV3Controller>()
+                .HasApiVersion(new ApiVersion(3, 0));
             });
         }
 
