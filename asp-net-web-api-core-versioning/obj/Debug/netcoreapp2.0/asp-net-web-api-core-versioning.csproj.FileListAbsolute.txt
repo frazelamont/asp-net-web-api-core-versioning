@@ -1,0 +1,11 @@
+C:\TEAMPROJECT\GIT\asp-net-web-api-core-versioning\asp-net-web-api-core-versioning\bin\Debug\netcoreapp2.0\asp-net-web-api-core-versioning.deps.json
+C:\TEAMPROJECT\GIT\asp-net-web-api-core-versioning\asp-net-web-api-core-versioning\bin\Debug\netcoreapp2.0\asp-net-web-api-core-versioning.runtimeconfig.json
+C:\TEAMPROJECT\GIT\asp-net-web-api-core-versioning\asp-net-web-api-core-versioning\bin\Debug\netcoreapp2.0\asp-net-web-api-core-versioning.runtimeconfig.dev.json
+C:\TEAMPROJECT\GIT\asp-net-web-api-core-versioning\asp-net-web-api-core-versioning\bin\Debug\netcoreapp2.0\asp-net-web-api-core-versioning.dll
+C:\TEAMPROJECT\GIT\asp-net-web-api-core-versioning\asp-net-web-api-core-versioning\obj\Debug\netcoreapp2.0\asp-net-web-api-core-versioning.csprojResolveAssemblyReference.cache
+C:\TEAMPROJECT\GIT\asp-net-web-api-core-versioning\asp-net-web-api-core-versioning\obj\Debug\netcoreapp2.0\asp-net-web-api-core-versioning.csproj.CoreCompileInputs.cache
+C:\TEAMPROJECT\GIT\asp-net-web-api-core-versioning\asp-net-web-api-core-versioning\obj\Debug\netcoreapp2.0\asp-net-web-api-core-versioning.AssemblyInfoInputs.cache
+C:\TEAMPROJECT\GIT\asp-net-web-api-core-versioning\asp-net-web-api-core-versioning\obj\Debug\netcoreapp2.0\asp-net-web-api-core-versioning.AssemblyInfo.cs
+C:\TEAMPROJECT\GIT\asp-net-web-api-core-versioning\asp-net-web-api-core-versioning\bin\Debug\netcoreapp2.0\asp-net-web-api-core-versioning.pdb
+C:\TEAMPROJECT\GIT\asp-net-web-api-core-versioning\asp-net-web-api-core-versioning\obj\Debug\netcoreapp2.0\asp-net-web-api-core-versioning.dll
+C:\TEAMPROJECT\GIT\asp-net-web-api-core-versioning\asp-net-web-api-core-versioning\obj\Debug\netcoreapp2.0\asp-net-web-api-core-versioning.pdb
